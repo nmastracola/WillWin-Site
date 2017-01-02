@@ -38,9 +38,6 @@ angular.module('willWin').controller('contactCtrl', function ($scope, $state, ma
 
 angular.module('willWin').controller('facilCtrl', function ($scope, $state, mainService) {
     $scope.slickConfig = {
-        // centerMode: true,
-        // centerPadding: '40px',
-        // slidesToShow: 1,
         accessibility: true,
         enabled: true,
         arrows: true,
