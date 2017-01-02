@@ -1,0 +1,39 @@
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+@media(max-width: 767px) {
+  *[vertilize] {
+    height: auto !important;
+  }
+}
+
+.menu {
+  cursor: hand;
+  cursor: pointer;
+}
+
+.slick-prev:before,
+.slick-next:before
+{
+  color: #b71c1c;
+
+}
+
+/* the slides */
+.slick-slide {
+  margin: 0 10px;
+}
+.slick-slide img {
+  display: inline-block;
+}
+/* the parent */
+.slick-list {
+  margin: 0 -10px;
+}
