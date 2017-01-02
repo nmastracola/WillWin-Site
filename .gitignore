@@ -1,1 +1,12 @@
 # Created by .ignore support plugin (hsz.mobi)
+.gitignore
+.idea/vcs.xml
+.idea/workspace.xml
+angular-vertilize.min.js
+dist/index.html
+dist/styles.css
+gulpfile.js
+js/
+node_modules/
+package.json
+yarn.lock
